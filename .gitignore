@@ -7,6 +7,7 @@
 /web/profiles/contrib/
 /web/libraries/
 /log/
+/priv
 
 # Ignore sensitive information
 /web/sites/*/settings.php
@@ -14,7 +15,7 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
-# /web/sites/*/priv/
+/web/sites/*/priv/
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
