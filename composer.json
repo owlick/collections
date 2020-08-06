@@ -109,12 +109,20 @@
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
+        "patches": {
+            "drupal/core": {
+                "Issue 2769289: Node revision author": "https://www.drupal.org/files/issues/2019-04-17/node_revision_author-2769289-22.patch"
+             }
+        },
         "patchLevel": {
             "drupal/core": "-p2"
         },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+        "file-mapping": {
+            "[web-root]/.htaccess": false
             }
         },
         "installer-paths": {
