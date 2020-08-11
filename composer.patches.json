@@ -1,0 +1,9 @@
+{
+  "patches": {
+    "drupal/core": {
+      "Issue 2769289: Node revision author": "https://www.drupal.org/files/issues/2019-04-17/node_revision_author-2769289-22.patch",
+      "Issue 3155265-4: ParseError - syntax error AuditFiles": "https://www.drupal.org/files/issues/2020-06-27/3155265-4.patch"
+    }
+  }
+}
+
