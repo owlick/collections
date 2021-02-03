@@ -1,0 +1,38 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.navbar-nav .navbar-default .navbar-brand{
+   color: #727272;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #727272;
+}
+
+.breadcrumb .active {
+  color: #727272;
+}
+
+a {
+  color: #2F6EB1
+}
+
+/** styles for the views **/
+.views-stamps-col {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.views-stamps-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.views-recipe-col {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.views-recipe-row {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
