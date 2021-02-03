@@ -29,6 +29,7 @@
         "drupal/bricks": "^1.6",
         "drupal/bricks_bootstrap": "^4.1",
         "drupal/captcha": "^1.1",
+        "drupal/ccos": "^2.0",
         "drupal/cloudflare": "^1.0@beta",
         "drupal/cloudflarepurger": "^1.0@beta",
         "drupal/console": "^1.0.2",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e2ee40359513e985f1324da5a251c22",
+    "content-hash": "b35df4c6dc253cdb9beb9f7a50afb8dd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3034,6 +3034,69 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/captcha",
                 "issues": "https://www.drupal.org/project/issues/captcha"
+            }
+        },
+        {
+            "name": "drupal/ccos",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ccos.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ccos-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "1cecb345097fd834780e0a59c172d0acd3d19301"
+            },
+            "require": {
+                "drupal/core": "^8.0 || ^9.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1591620438",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ravi Kumar Singh",
+                    "homepage": "https://www.drupal.org/u/rksyravi",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "This module will help you to clear cache of sole/specific entity type (i.e block, node, views block, view page etc.) from contextual links, local task menu and operations drop-button.",
+            "homepage": "https://www.drupal.org/project/ccos",
+            "keywords": [
+                "Cache",
+                "Cache Clear",
+                "Cache Clear From UI",
+                "Cache Clear of Individual",
+                "Clear Cache",
+                "Clear Cache Of Sole",
+                "Clear Cache Of Sole Entity Type",
+                "Clear Specific Cache",
+                "Developer",
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/ccos",
+                "issues": "https://www.drupal.org/project/issues/ccos"
             }
         },
         {
