@@ -3,17 +3,13 @@
  * your custom CSS modifications here.
  */
 
-/** 508 compliance colors **/
-.navbar-default .navbar-brand {
-   color: #6e6e6e;
-}
-
-.navbar-default .navbar-nav {
-  color: #6e6e6e;
+/** 508 compliance colors for navigation elements **/
+.nav {
+   color: #727272;
 }
 
 .breadcrumb .active {
-  color: #6e6e6e;
+  color: #727272;
 }
 
 a {
