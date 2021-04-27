@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Collection documentation
 
-You can use the [editor on GitHub](https://github.com/owlick/collections/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Stamps that I own that are cataloged similarly to Colnect. In addition, recipes and some valueables. Ultimately this will become a stamp catalog site.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Stamps
 
-### Markdown
+Various stamps I have collected since early years. Almost all stanmps are used but never hinged. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Stamps are mainly organized by year of beginning circulation or issue. They can also me filtered by country of origin and color. Requirements for addition include being identified in Colnect's database of stamps with a Scott (Sn) #. 
 
-```markdown
-Syntax highlighted code block
+### Required fields:
+- Name
+- Year
+- Catalog number
 
-# Header 1
-## Header 2
-### Header 3
+### Issues:
+- Duplicates always need research at Colnect
+- Sometimes entry does not exist at Colnect
+- Use alternative sites like Mystic Stamps
+- Enter stamp at Colnect if it does not exist
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/owlick/collections/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## To-do and coding issues:
+- Sorting by Catalog number needs to be added
+- Styling of Twig files
