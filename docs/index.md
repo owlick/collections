@@ -7,9 +7,9 @@ Stamps that I own that are cataloged similarly to Colnect. In addition, recipes 
 
 ## Stamps
 
-Various stamps I have collected since early years. Almost all stanmps are used but never hinged. 
+My stamp collection since early years. Almost all stamps are used but never hinged. 
 
-Stamps are mainly organized by year of beginning circulation or issue. They can also me filtered by country of origin and color. Requirements for addition include being identified in Colnect's database of stamps with a Scott (Sn) #. 
+Stamps are mainly organized by year of first circulation or issue date. They can also be filtered by country of origin and color. Requirements for addition include being identified in Colnect's database of stamps with a Scott (Sn) #. 
 
 ### Required fields:
 - Name
