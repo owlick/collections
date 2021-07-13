@@ -70,6 +70,7 @@
         "drupal/views_simple_math_field": "^1.9",
         "drupal/webform": "^5.19",
         "drush/drush": "^9.7.1 | ^10.0.0",
+        "tecnickcom/tcpdf": "~6",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
