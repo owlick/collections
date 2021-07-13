@@ -50,7 +50,6 @@
         "drupal/module_missing_message_fixer": "^1.2",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
-        "drupal/pdf_api": "1.x-dev",
         "drupal/purge": "^3.0",
         "drupal/purge_purger_http": "^1.0",
         "drupal/purge_queuer_url": "^1.0",
