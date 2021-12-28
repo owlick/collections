@@ -22,16 +22,17 @@
         "dompdf/dompdf": " 0.8.5",
         "drupal/admin_toolbar": "^2.3",
         "drupal/auditfiles": "^2.11",
-        "drupal/backup_migrate": "^4.1",
+        "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap": "^3.23",
-        "drupal/bootstrap_kit": "^4.2",
         "drupal/bootstrap_paragraphs": "^2.0@beta",
         "drupal/captcha": "^1.1",
         "drupal/cloudflare": "^1.0@beta",
         "drupal/cloudflarepurger": "^1.0@beta",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.8.0",
-        "drupal/core-composer-scaffold": "^8.8.0",
+        "drupal/core": "^9",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
         "drupal/country": "^1.0@beta",
         "drupal/ctools": "^3.4",
         "drupal/devel": "^4.0",
@@ -44,10 +45,9 @@
         "drupal/file_replace_shell_exec": "^1.1",
         "drupal/google_analytics": "^3.1",
         "drupal/imce": "^2.2",
-        "drupal/login_security": "^1.5",
+        "drupal/login_security": "^2.0",
         "drupal/media_entity_file_replace": "^1.0@beta",
         "drupal/memcache": "^2.3",
-        "drupal/module_missing_message_fixer": "^1.2",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
         "drupal/purge": "^3.0",
@@ -57,18 +57,16 @@
         "drupal/redirect": "^1.6",
         "drupal/rename_admin_paths": "^2.0",
         "drupal/restui": "^1.18",
-        "drupal/rules": "^3.0@alpha",
-        "drupal/rules_webform": "^1.4",
-        "drupal/seckit": "^1.2",
+        "drupal/seckit": "^2.0",
         "drupal/simple_sitemap": "^3.7",
         "drupal/token": "^1.9",
         "drupal/typed_data": "^1.0@alpha",
         "drupal/ultimate_cron": "^2.0@alpha",
         "drupal/unused_modules": "^1.2",
         "drupal/upgrade_status": "^3.11",
-        "drupal/views_cumulative_field": "^1.5",
-        "drupal/views_simple_math_field": "^1.9",
-        "drupal/webform": "^5.19",
+        "drupal/views_cumulative_field": "^2.0",
+        "drupal/views_simple_math_field": "^2.0@beta",
+        "drupal/webform": "^6.1",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "tecnickcom/tcpdf": "~6",
         "vlucas/phpdotenv": "^4.0",
@@ -76,7 +74,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8.0"
+        "drupal/core-dev": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -111,6 +109,9 @@
         "patches": {
             "drupal/core": {
                 "Issue 2769289: Node revision author": "https://www.drupal.org/files/issues/2019-04-17/node_revision_author-2769289-22.patch"
+             },
+            "drupal/country": {
+                "Issue 3064926: Country causes updb error": "https://www.drupal.org/files/issues/2019-06-29/remove-country-update-8001-3064926-2.patch"
              }
         },
         "patchLevel": {
