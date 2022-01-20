@@ -109,9 +109,6 @@
         "patches": {
             "drupal/core": {
                 "Issue 2769289: Node revision author": "https://www.drupal.org/files/issues/2019-04-17/node_revision_author-2769289-22.patch"
-             },
-            "drupal/country": {
-                "Issue 3064926: Country causes updb error": "https://www.drupal.org/files/issues/2019-06-29/remove-country-update-8001-3064926-2.patch"
              }
         },
         "patchLevel": {
